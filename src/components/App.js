@@ -20,7 +20,8 @@ class App extends Component {
       <>
         <div id="main">
           {/* Do not remove the main div */}
-         
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
           <Switch>
             <Route path="/about" component={About} />
             <Route path="/" exact component={Home} />
